@@ -18,7 +18,7 @@ def assign_rooms(name)
   room = l
   name.each do |name|
     room_array << ("Hello, #{name}! You'll be assigned to room #{room}!")
-    room += 1
+
   end
   return room_array
 end
