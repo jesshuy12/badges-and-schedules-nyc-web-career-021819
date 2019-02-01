@@ -5,11 +5,11 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(name)
-  array2 = []
+  array = []
   name.each do |name|
-    array2 << ("Hello, my name is #{name}.")
+    array << ("Hello, my name is #{name}.")
   end
-  return array2
+  return array
 end
 
 
