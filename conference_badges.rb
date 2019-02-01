@@ -14,11 +14,8 @@ end
 
 
 def assign_rooms(name)
-  room_array = []
-  room = l
   name.each do |name|
     room_array << ("Hello, #{name}! You'll be assigned to room #{room}!")
-
   end
   return room_array
 end
