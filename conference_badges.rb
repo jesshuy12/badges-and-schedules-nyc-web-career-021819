@@ -1,7 +1,11 @@
 # Write your code here.
 
-def batch_badge_creator(name)
+def badge_maker(name)
   return "Hello, my name is #{name}."
 end
+
+def batch_badge_creator
+
+
 
 def assign_rooms(name)
