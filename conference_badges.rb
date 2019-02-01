@@ -16,4 +16,5 @@ end
 def assign_rooms(array)
   room_array = []
   room = l
+  array.each do 
   
