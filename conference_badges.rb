@@ -1,13 +1,13 @@
 # Write your code here.
 
-def badge_maker(attendees)
-  return "Hello, my name is #{attendees}."
+def badge_maker(name)
+  return "Hello, my name is #{name}."
 end
 
-def batch_badge_creator(attendees)
+def batch_badge_creator(name)
   array = []
-  attendees.each do |attendees|
-    array << ("Hello, my name is #{attendees}.")
+  name.each do |name|
+    array << ("Hello, my name is #{name}.")
   end
   return array
 end
