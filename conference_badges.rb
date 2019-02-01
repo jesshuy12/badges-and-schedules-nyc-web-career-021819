@@ -19,4 +19,7 @@ def assign_rooms(array)
   array.each do |name|
     room_array.push("Hello, #{name}! You'll be assigned to room #{room}!")
     room += 1
+  end
+  return room_array
+end
   
